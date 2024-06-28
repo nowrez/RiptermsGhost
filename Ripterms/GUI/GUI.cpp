@@ -187,7 +187,7 @@ static BOOL WINAPI detour_wglSwapBuffers(HDC unnamedParam1)
 
 		ImGui::SetNextWindowBgAlpha(1.f);
 		ImGui::SetNextWindowSize(ImVec2(600.0f, 400.f));
-		ImGui::Begin("Ripterms Ghost", nullptr, ImGuiWindowFlags_NoDecoration);
+		ImGui::Begin("readdone 313", nullptr, ImGuiWindowFlags_NoDecoration);
 		{
 			
 			ImGui::BeginChild ( "##header" , ( ImVec2 ( ImGui::GetWindowWidth ( ) - ImGui::GetStyle ( ).WindowPadding.x * 2.f , Ripterms::GUI::HEADER_HEIGHT ) ) );
